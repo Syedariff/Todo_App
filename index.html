@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ToDo App</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="favicon/site.webmanifest">
+</head>
+<body>
+	<header class="header">
+		<h1>
+			Let's make some ideas
+			<span>
+				<i class="fa fa-lightbulb-o" aria-hidden="true" id="icon"></i>
+			</span>
+		</h1>
+	</header>
+	<section class="main">
+		<div class="main__formbox">
+			<h2>Add Task</h2>
+			<p id="err">Please add some Text!</p>
+			<form autocomplete="on" method="post" id="form">
+				<input type="text" name="ideas" id="additem">
+				<input type="submit" name="submit" value="Add">
+
+			</form>
+		</div>
+		<div class="main__listbox">
+				<ul class="main__list">
+					<!-- <li>
+						sahk 
+						<button class="btn">
+							&times; Clear
+						</button>
+					</li>
+					<li>
+						sakjhgs
+						<button class="btn">
+							&times; Clear
+						</button>
+					</li> -->
+				</ul>				
+		</div>		
+	</section>
+	<!-- script file -->
+	<script src="index.js"></script>
+</body>
+</html>
